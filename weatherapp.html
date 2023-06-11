@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous"/>
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+     <title>Wire Frame</title>
+  </head>
+
+ <body>
+   <div class="container">
+     <div class="weather-app">
+    <form class="searchInput" id="search-input">
+      <div class="row">
+        <div class="col-9">
+        <input 
+        type="class"
+        placeholder="Enter City"
+        class="form-control"
+        id="search-form"
+        />
+        </div>
+        <div class="col-3">
+        <input
+        type="submit"
+        value="Search"
+        class="btn btn-primary"
+        />
+        </div>
+      </div>
+     </form>
+     <ul>
+     <h1 id="city">
+       Cape Town  
+     </h1>
+     <h2 id="date"></h2>
+     <p id="temperature">
+        18/11°C
+     </p>
+     </ul>
+     <div class="card">
+       <div class="time">
+      <div class="row">
+        <div class="col">
+          00:00 
+          <br>🌙
+          </br>
+          14°C
+          </div>
+          <div class="col">
+            01:00 
+            <br> 🌙
+            </br>
+            14°C 
+         </div>
+            <div class="col">
+              02:00 
+              <br> 🌙
+              </br>
+              13°C
+        </div>
+        <div class="col">
+          03:00
+          <br> 🌙
+          </br>
+          13°C
+          </div>
+          <div class="col">
+            04:00
+            <br> 🌙
+            </br>
+            13°C
+          </div>
+          <div class="col">
+            05:00
+            <br>
+            🌙
+            </br>
+            12°C
+          </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="card">
+    <div class="weekday">
+      <div class="row">
+        <div class="col">
+          Today
+          <br>
+          05/14
+          </br>
+          <div>
+          ☀️
+          </div>
+          Sunny
+        </div>
+        <div class="col">
+        <div>      
+        Tomorrow
+        <br>
+        05/16
+        </br>
+        <div>
+          ⛅️
+        </div>
+        Partly sunny
+        </div>
+        </div>
+        <div class="col">
+          Wed
+          <br>
+          05/17
+          </br>
+          <div>
+            🌧
+          </div>
+          Mostlyy cloudy
+        </div>
+        <div class="col">
+          Thu
+          <br>
+          05/18
+          </br>
+          <div>
+          🌥
+          </div>
+            Partly sunny
+        </div>
+        <div class="col">
+          Fri
+          <br>
+          05/19
+          </br>
+          <div>
+          🌥
+          </div>
+          Mostly cloudy
+        </div>
+        <div class="col">
+          Sat
+          <br>
+          05/20
+          </br>
+          <div>
+            🌧
+          </div>
+          Showers
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
